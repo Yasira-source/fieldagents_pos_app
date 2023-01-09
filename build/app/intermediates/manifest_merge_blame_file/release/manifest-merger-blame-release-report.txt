@@ -1,0 +1,229 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.plussaveagent"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:3:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:4:5-73
+12-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:4:22-71
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:5:5-78
+13-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+14-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:6:5-84
+14-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:6:22-82
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:7:5-66
+15-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:7:22-64
+16
+17    <queries>
+17-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:7:5-11:15
+18        <intent>
+18-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:8:9-10:18
+19            <action android:name="android.support.customtabs.action.CustomTabsService" />
+19-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:9:13-90
+19-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:9:21-87
+20        </intent>
+21    </queries>
+22
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[:connectivity] /Users/yasiramuganga/plussaveagent/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:7:5-79
+23-->[:connectivity] /Users/yasiramuganga/plussaveagent/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:7:22-76
+24
+25    <application
+26        android:name="android.app.Application"
+26-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:10:9-42
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.8.0] /Users/yasiramuganga/.gradle/caches/transforms-3/0f9a447ce4af717daf8cc4b39b442b92/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:11:9-43
+29        android:label="Plus Save Agent" >
+29-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:9:9-40
+30        <activity
+30-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:12:9-32:20
+31            android:name="com.example.plussaveagent.MainActivity"
+31-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:13:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:17:13-163
+33            android:exported="true"
+33-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:14:13-36
+34            android:hardwareAccelerated="true"
+34-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:18:13-47
+35            android:launchMode="singleTop"
+35-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:15:13-43
+36            android:theme="@style/LaunchTheme"
+36-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:16:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:19:13-55
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+45-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:24:13-27:17
+46                android:name="io.flutter.embedding.android.NormalTheme"
+46-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:25:15-70
+47                android:resource="@style/NormalTheme" />
+47-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:26:15-52
+48
+49            <intent-filter>
+49-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:28:13-31:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:29:17-68
+50-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:29:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:30:17-76
+52-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:30:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <provider
+57            android:name="com.pichillilorenzo.flutter_inappwebview.InAppWebViewFileProvider"
+57-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:34:5-85
+58            android:authorities="com.example.plussaveagent.flutter_inappwebview.fileprovider"
+58-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:35:5-77
+59            android:exported="false"
+59-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:36:5-29
+60            android:grantUriPermissions="true" >
+60-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:37:5-39
+61            <meta-data
+61-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:38:5-40:50
+62                android:name="android.support.FILE_PROVIDER_PATHS"
+62-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:39:9-59
+63                android:resource="@xml/provider_paths" />
+63-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:40:9-47
+64        </provider>
+65        <!--
+66             Don't delete the meta-data below.
+67             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+68        -->
+69        <meta-data
+69-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:44:9-46:33
+70            android:name="flutterEmbedding"
+70-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:45:13-44
+71            android:value="2" />
+71-->/Users/yasiramuganga/plussaveagent/android/app/src/main/AndroidManifest.xml:46:13-30
+72
+73        <activity
+73-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:14:9-18:47
+74            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+74-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:15:13-104
+75            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+75-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:16:13-137
+76            android:exported="false"
+76-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:17:13-37
+77            android:theme="@style/AppTheme" />
+77-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:18:13-44
+78        <activity
+78-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:19:9-22:55
+79            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+79-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:20:13-112
+80            android:exported="false"
+80-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:21:13-37
+81            android:theme="@style/ThemeTransparent" />
+81-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:22:13-52
+82        <activity
+82-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:23:9-26:55
+83            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+83-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:24:13-106
+84            android:exported="false"
+84-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:25:13-37
+85            android:theme="@style/ThemeTransparent" />
+85-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:26:13-52
+86        <activity
+86-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:27:9-31:55
+87            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+87-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:28:13-126
+88            android:exported="false"
+88-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:29:13-37
+89            android:launchMode="singleInstance"
+89-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:30:13-48
+90            android:theme="@style/ThemeTransparent" />
+90-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:31:13-52
+91        <activity
+91-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:32:9-36:55
+92            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+92-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:33:13-120
+93            android:exported="false"
+93-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:34:13-37
+94            android:launchMode="singleInstance"
+94-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:35:13-48
+95            android:theme="@style/ThemeTransparent" />
+95-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:36:13-52
+96
+97        <receiver
+97-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:38:9-41:40
+98            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+98-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:39:13-111
+99            android:enabled="true"
+99-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:40:13-35
+100            android:exported="false" />
+100-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:41:13-37
+101
+102        <meta-data
+102-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:43:9-45:36
+103            android:name="io.flutter.embedded_views_preview"
+103-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:44:13-61
+104            android:value="true" />
+104-->[:flutter_inappwebview] /Users/yasiramuganga/plussaveagent/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:45:13-33
+105
+106        <activity
+106-->[:url_launcher_android] /Users/yasiramuganga/plussaveagent/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+107            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+107-->[:url_launcher_android] /Users/yasiramuganga/plussaveagent/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+108            android:exported="false"
+108-->[:url_launcher_android] /Users/yasiramuganga/plussaveagent/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+109            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+109-->[:url_launcher_android] /Users/yasiramuganga/plussaveagent/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+110
+111        <uses-library
+111-->[androidx.window:window:1.0.0-beta04] /Users/yasiramuganga/.gradle/caches/transforms-3/a9ec050e67f96a878a41295d648658fb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+112            android:name="androidx.window.extensions"
+112-->[androidx.window:window:1.0.0-beta04] /Users/yasiramuganga/.gradle/caches/transforms-3/a9ec050e67f96a878a41295d648658fb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+113            android:required="false" />
+113-->[androidx.window:window:1.0.0-beta04] /Users/yasiramuganga/.gradle/caches/transforms-3/a9ec050e67f96a878a41295d648658fb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+114        <uses-library
+114-->[androidx.window:window:1.0.0-beta04] /Users/yasiramuganga/.gradle/caches/transforms-3/a9ec050e67f96a878a41295d648658fb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+115            android:name="androidx.window.sidecar"
+115-->[androidx.window:window:1.0.0-beta04] /Users/yasiramuganga/.gradle/caches/transforms-3/a9ec050e67f96a878a41295d648658fb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+116            android:required="false" />
+116-->[androidx.window:window:1.0.0-beta04] /Users/yasiramuganga/.gradle/caches/transforms-3/a9ec050e67f96a878a41295d648658fb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+117
+118        <provider
+118-->[androidx.emoji2:emoji2:1.2.0] /Users/yasiramuganga/.gradle/caches/transforms-3/6d7f3e68508516132b48e1ae6eac9e20/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+119            android:name="androidx.startup.InitializationProvider"
+119-->[androidx.emoji2:emoji2:1.2.0] /Users/yasiramuganga/.gradle/caches/transforms-3/6d7f3e68508516132b48e1ae6eac9e20/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+120            android:authorities="com.example.plussaveagent.androidx-startup"
+120-->[androidx.emoji2:emoji2:1.2.0] /Users/yasiramuganga/.gradle/caches/transforms-3/6d7f3e68508516132b48e1ae6eac9e20/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+121            android:exported="false" >
+121-->[androidx.emoji2:emoji2:1.2.0] /Users/yasiramuganga/.gradle/caches/transforms-3/6d7f3e68508516132b48e1ae6eac9e20/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+122            <meta-data
+122-->[androidx.emoji2:emoji2:1.2.0] /Users/yasiramuganga/.gradle/caches/transforms-3/6d7f3e68508516132b48e1ae6eac9e20/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+123                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+123-->[androidx.emoji2:emoji2:1.2.0] /Users/yasiramuganga/.gradle/caches/transforms-3/6d7f3e68508516132b48e1ae6eac9e20/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+124                android:value="androidx.startup" />
+124-->[androidx.emoji2:emoji2:1.2.0] /Users/yasiramuganga/.gradle/caches/transforms-3/6d7f3e68508516132b48e1ae6eac9e20/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+125            <meta-data
+125-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/yasiramuganga/.gradle/caches/transforms-3/12f1213e48e6fcb6262bb7a63a2027ec/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+126                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+126-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/yasiramuganga/.gradle/caches/transforms-3/12f1213e48e6fcb6262bb7a63a2027ec/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+127                android:value="androidx.startup" />
+127-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/yasiramuganga/.gradle/caches/transforms-3/12f1213e48e6fcb6262bb7a63a2027ec/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+128        </provider>
+129    </application>
+130
+131</manifest>
